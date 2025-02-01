@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Durai\\source\\repos\\E-commerce\\E-commerce\\E-commerce.csproj": {}
+    "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Durai\\source\\repos\\E-commerce\\E-commerce\\E-commerce.csproj": {
+    "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Durai\\source\\repos\\E-commerce\\E-commerce\\E-commerce.csproj",
-        "projectName": "E-commerce",
-        "projectPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\E-commerce\\E-commerce.csproj",
+        "projectUniqueName": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj",
+        "projectName": "Ecommerce.Services.CouponAPI",
+        "projectPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj",
         "packagesPath": "C:\\Users\\Durai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\E-commerce\\obj\\",
+        "outputPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Durai\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

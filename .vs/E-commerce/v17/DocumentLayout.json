@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|solutionrelative:ecommerce.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|solutionrelative:ecommerce.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\service\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\service\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.couponapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|solutionrelative:ecommerce.services.couponapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\ecommerce.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\ecommerce.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +38,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Service\\BaseService.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\BaseService.cs",
+              "RelativeToolTip": "Ecommerce.Web\\Service\\BaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:08:01.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\IService\\IBaseService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Service\\IService\\IBaseService.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\IService\\IBaseService.cs",
+              "RelativeToolTip": "Ecommerce.Web\\Service\\IService\\IBaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:05:37.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ecommerce.Web",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Ecommerce.Web.csproj",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Ecommerce.Web.csproj",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Ecommerce.Web.csproj",
+              "RelativeToolTip": "Ecommerce.Web\\Ecommerce.Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-03T18:02:06.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Utility\\SD.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Utility\\SD.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Utility\\SD.cs",
+              "RelativeToolTip": "Ecommerce.Web\\Utility\\SD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:55:24.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Models\\Request.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Models\\Request.cs",
+              "RelativeToolTip": "Ecommerce.Web\\Models\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:53:33.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Ecommerce.Web\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:48:21.785Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CouponAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
-              "RelativeToolTip": "Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Models\\Response.cs",
+              "RelativeToolTip": "Ecommerce.Web\\Models\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T17:22:17.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.CouponAPI\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Ecommerce.Services.CouponAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T14:32:04.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.CouponAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Program.cs",
-              "RelativeToolTip": "Ecommerce.Services.CouponAPI\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T18:20:57.36Z",
+              "WhenOpened": "2025-02-03T17:48:33.349Z",
               "EditorCaption": ""
             }
           ]

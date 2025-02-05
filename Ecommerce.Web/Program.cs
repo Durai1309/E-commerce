@@ -1,7 +1,19 @@
+using Ecommerce.Web.Service.IService;
+using Ecommerce.Web.Service;
+using Ecommerce.Web.Utility;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
+builder.Services.AddHttpClient<ICouponService, CouponService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+SD.CouponAPIBase = builder.Configuration["ServiceUrls:CouponAPI"];
+builder.Services.AddScoped<ICouponService, CouponService>();
+builder.Services.AddScoped<IBaseService, BaseService>();
 
 var app = builder.Build();
 

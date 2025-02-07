@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.Services.CouponAPI.Controllers
 {
+    [Route("api/coupon")]
+    [ApiController]
     public class CouponAPIController : Controller
     {
         private readonly AppDbContext _db;

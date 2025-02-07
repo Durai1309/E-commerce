@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="6.0.1" />
+    <PackageReference Include="System.Security.Permissions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Middleware\" />
   </ItemGroup>
 
 </Project>

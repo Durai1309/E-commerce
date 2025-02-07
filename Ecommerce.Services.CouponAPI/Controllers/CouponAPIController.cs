@@ -17,7 +17,6 @@ namespace Ecommerce.Services.CouponAPI.Controllers
         }
 
         [HttpGet]
-        [Route("coupons")]
         public Response GetAllCoupons()
         {
             try
@@ -34,7 +33,7 @@ namespace Ecommerce.Services.CouponAPI.Controllers
         }
 
         [HttpGet]
-        [Route("coupons/{id:int}")]
+        [Route("{id:int}")]
         public Response GetCouponById(int id)
         {
             try
@@ -67,7 +66,6 @@ namespace Ecommerce.Services.CouponAPI.Controllers
         }
 
         [HttpPost]
-        [Route("coupons")]
         public Response Post([FromBody] Coupon coupon)
         {
             try
@@ -87,7 +85,6 @@ namespace Ecommerce.Services.CouponAPI.Controllers
 
 
         [HttpPut]
-        [Route("coupons/{id}")]
         public Response Put([FromBody] Coupon coupon)
         {
             try
@@ -107,7 +104,7 @@ namespace Ecommerce.Services.CouponAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("coupons/{id}")]
+        [Route("{id:int}")]
         public Response Delete(int id)
         {
             try

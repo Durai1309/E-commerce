@@ -1,0 +1,45 @@
+﻿@model Coupon
+<form asp-action="CouponCreate">
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-md-6 col-12">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h5 class="m-0" style="font-size: 1.5rem;">Create Coupon</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-12 mb-3">
+                                <label for="CouponCode" class="form-label h6">Coupon Code</label>
+                                <input asp-for="CouponCode" id="CouponCode" class="form-control form-control-sm" required />
+                                <span asp-validation-for="CouponCode" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="DiscountAmount" class="form-label h6">Discount Amount</label>
+                                <input asp-for="DiscountAmount" id="DiscountAmount" type="number" class="form-control form-control-sm" required />
+                                <span asp-validation-for="DiscountAmount" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="MinAmount" class="form-label h6">Minimum Amount</label>
+                                <input asp-for="MinAmount" id="MinAmount" type="number" class="form-control form-control-sm" required />
+                                <span asp-validation-for="MinAmount" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12 d-flex justify-content-between">
+                                <a asp-action="CouponIndex" class="btn btn-outline-primary btn-sm">Back to List</a>
+                                <button type="submit" class="btn btn-outline-primary btn-sm">Create Coupon</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

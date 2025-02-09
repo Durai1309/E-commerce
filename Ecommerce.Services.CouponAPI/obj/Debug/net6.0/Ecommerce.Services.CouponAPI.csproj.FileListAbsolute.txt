@@ -6,6 +6,7 @@ C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\ne
 C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\net6.0\Ecommerce.Services.CouponAPI.dll
 C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\net6.0\Ecommerce.Services.CouponAPI.pdb
 C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Durai\source\repos\E-commerce\Ecommerce.Services.CouponAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll

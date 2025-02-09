@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\coupon\\couponindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\coupon\\couponindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E79396-301F-472E-912E-DF3ECF35C5E4}|Ecommerce.Services.CouponAPI\\Ecommerce.Services.CouponAPI.csproj|solutionrelative:ecommerce.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\coupon\\couponcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\coupon\\couponcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +34,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CouponAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "RelativeToolTip": "Ecommerce.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T09:06:43.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CouponCreate.cshtml",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Coupon\\CouponCreate.cshtml",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Coupon\\CouponCreate.cshtml",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Coupon\\CouponCreate.cshtml",
-              "RelativeToolTip": "Ecommerce.Web\\Views\\Coupon\\CouponCreate.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Title": "_Notifications.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T10:31:01.468Z",
+              "WhenOpened": "2025-02-09T09:06:29.895Z",
               "EditorCaption": ""
             },
             {
@@ -57,48 +66,22 @@
               "RelativeDocumentMoniker": "Ecommerce.Web\\Controllers\\CouponController.cs",
               "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Controllers\\CouponController.cs",
               "RelativeToolTip": "Ecommerce.Web\\Controllers\\CouponController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAwwEsAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T10:30:00.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CouponIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Coupon\\CouponIndex.cshtml",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Coupon\\CouponIndex.cshtml",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Coupon\\CouponIndex.cshtml",
-              "RelativeToolTip": "Ecommerce.Web\\Views\\Coupon\\CouponIndex.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T08:28:12.867Z",
+              "WhenOpened": "2025-02-09T08:35:51.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Ecommerce.Web\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T08:20:59.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Ecommerce.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T18:57:10.411Z",
+              "WhenOpened": "2025-02-09T08:30:11.436Z",
               "EditorCaption": ""
             }
           ]

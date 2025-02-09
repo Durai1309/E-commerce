@@ -1,0 +1,46 @@
+﻿@model Coupon
+
+<form asp-action="CouponDelete">
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-md-6 col-12">
+                <div class="card shadow">
+                    <div class="card-header bg-danger text-white text-center">
+                        <h5 class="m-0" style="font-size: 1.5rem;">Delete Coupon</h5>
+                    </div>
+                    <div class="card-body">
+                        <input asp-for="CouponId" hidden />
+
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label for="CouponCode" class="form-label h6">Coupon Code</label>
+                                <input asp-for="CouponCode" disabled id="CouponCode" class="form-control form-control-sm" />
+                                <span asp-validation-for="CouponCode" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label for="DiscountAmount" class="form-label h6">Discount Amount</label>
+                                <input asp-for="DiscountAmount" disabled id="DiscountAmount" class="form-control form-control-sm" />
+                                <span asp-validation-for="DiscountAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label for="MinAmount" class="form-label h6">Minimum Amount</label>
+                                <input asp-for="MinAmount" disabled id="MinAmount" class="form-control form-control-sm" />
+                                <span asp-validation-for="MinAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-between">
+                            <a asp-action="CouponIndex" class="btn btn-outline-primary btn-sm">Back to List</a>
+                            <button type="submit" class="btn btn-outline-danger btn-sm">Delete Coupon</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

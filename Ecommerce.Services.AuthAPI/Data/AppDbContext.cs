@@ -1,9 +1,8 @@
 ﻿using Ecommerce.Services.AuthAPI.Models;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ecommerce.Services.CouponAPI.Data
+namespace Ecommerce.Services.AuthAPI.Data
 {
     public class AppDbContext : IdentityDbContext<ApplicationUser>
     {

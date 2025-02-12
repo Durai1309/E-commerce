@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\models\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\models\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\models\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\models\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.authapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E6BB71-7AC3-487F-8E0B-6685ECDD3905}|Ecommerce.Services.AuthAPI\\Ecommerce.Services.AuthAPI.csproj|solutionrelative:ecommerce.services.authapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JwtOptions.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\JwtOptions.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Models\\JwtOptions.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\JwtOptions.cs",
-              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Models\\JwtOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T17:12:58.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Models\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\LoginResponse.cs",
-              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Models\\LoginResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T17:12:21.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Models\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T17:11:01.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegistrationRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\RegistrationRequest.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Models\\RegistrationRequest.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\RegistrationRequest.cs",
-              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Models\\RegistrationRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T17:10:33.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\User.cs",
-              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T17:09:46.036Z",
+              "WhenOpened": "2025-02-12T17:43:12.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\Response.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Models\\Response.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Models\\Response.cs",
-              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Models\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T18:22:40.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AuthAPIController.cs",
               "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
               "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
               "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
               "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T18:19:36.731Z",
+              "WhenOpened": "2025-02-12T17:42:37.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Services.AuthAPI\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.AuthAPI\\Service\\AuthService.cs",
+              "RelativeToolTip": "Ecommerce.Services.AuthAPI\\Service\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T17:33:49.521Z",
               "EditorCaption": ""
             }
           ]

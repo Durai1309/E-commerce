@@ -1,4 +1,5 @@
 ﻿using Ecommerce.Services.AuthAPI.Models;
+using Ecommerce.Services.AuthAPI.Service.IService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.Services.AuthAPI.Controllers

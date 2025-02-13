@@ -1,5 +1,5 @@
+using Ecommerce.Services.AuthAPI.Data;
 using Ecommerce.Services.AuthAPI.Models;
-using Ecommerce.Services.CouponAPI.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

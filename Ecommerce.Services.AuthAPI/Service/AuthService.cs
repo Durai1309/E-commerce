@@ -17,23 +17,100 @@ namespace Ecommerce.Services.AuthAPI.Service
             UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _db = db;
-            _jwtTokenGenerator = jwtTokenGenerator;
+           _jwtTokenGenerator = jwtTokenGenerator;
             _userManager = userManager;
             _roleManager = roleManager;
         }
-        public Task<bool> AssignRole(string email, string roleName)
+
+        public async Task<bool> AssignRole(string email, string roleName)
         {
-            throw new NotImplementedException();
+            var user = _db.ApplicationUsers.FirstOrDefault(u => u.Email.ToLower() == email.ToLower());
+            if (user != null)
+            {
+                if (!_roleManager.RoleExistsAsync(roleName).GetAwaiter().GetResult())
+                {
+                    //create role if it does not exist
+                    _roleManager.CreateAsync(new IdentityRole(roleName)).GetAwaiter().GetResult();
+                }
+                await _userManager.AddToRoleAsync(user, roleName);
+                return true;
+            }
+            return false;
+
         }
 
-        public Task<LoginResponse> Login(LoginRequest loginRequest)
+        public async Task<LoginResponse> Login(LoginRequest loginRequest)
         {
-            throw new NotImplementedException();
+            var user = _db.ApplicationUsers.FirstOrDefault(u => u.UserName.ToLower() == loginRequest.UserName.ToLower());
+
+            bool isValid = await _userManager.CheckPasswordAsync(user, loginRequest.Password);
+
+            if (user == null || isValid == false)
+            {
+                return new LoginResponse() { User = null, Token = "" };
+            }
+
+            //if user was found , Generate JWT Token
+            var roles = await _userManager.GetRolesAsync(user);
+            var token = _jwtTokenGenerator.GenerateToken(user, roles);
+
+            User userDTO = new()
+            {
+                Email = user.Email,
+                ID = user.Id,
+                Name = user.Name,
+                PhoneNumber = user.PhoneNumber
+            };
+
+            LoginResponse loginResponse = new LoginResponse()
+            {
+                User = userDTO,
+               Token = token
+            };
+
+            return loginResponse;
         }
 
-        public Task<string> Register(RegistrationRequest registrationRequest)
+        public async Task<string> Register(RegistrationRequest registrationRequest)
         {
-            throw new NotImplementedException();
+            ApplicationUser user = new()
+            {
+                UserName = registrationRequest.Email,
+                Email = registrationRequest.Email,
+                NormalizedEmail = registrationRequest.Email.ToUpper(),
+                Name = registrationRequest.Name,
+                PhoneNumber = registrationRequest.PhoneNumber
+            };
+
+            try
+            {
+                var result = await _userManager.CreateAsync(user, registrationRequest.Password);
+                if (result.Succeeded)
+                {
+                    var userToReturn = _db.ApplicationUsers.First(u => u.UserName == registrationRequest.Email);
+
+                    User userDto = new()
+                    {
+                        Email = userToReturn.Email,
+                        ID = userToReturn.Id,
+                        Name = userToReturn.Name,
+                        PhoneNumber = userToReturn.PhoneNumber
+                    };
+
+                    return "";
+
+                }
+                else
+                {
+                    return result.Errors.FirstOrDefault().Description;
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return "Error Encountered";
         }
     }
 }

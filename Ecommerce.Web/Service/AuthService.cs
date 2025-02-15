@@ -22,35 +22,24 @@ namespace Ecommerce.Web.Service
             });
         }
 
-        public Task<Response?> LoginAsync(LoginRequest loginRequest)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Response?> RegisterAsync(RegistrationRequest registrationRequest)
-        {
-            throw new NotImplementedException();
-        }
-
-        /*public async Task<Response?> LoginAsync(LoginRequest loginRequest)
+        public async Task<Response?> LoginAsync(LoginRequest loginRequestDto)
         {
             return await _baseService.SendAsync(new Request()
             {
                 ApiType = SD.ApiType.POST,
-                Data = loginRequest,
+                Data = loginRequestDto,
                 Url = SD.AuthAPIBase + "/api/auth/login"
             }, withBearer: false);
-
         }
 
-        public async Task<Response?> RegisterAsync(RegistrationRequest registrationRequest)
+        public async Task<Response?> RegisterAsync(RegistrationRequest registrationRequestDto)
         {
             return await _baseService.SendAsync(new Request()
             {
                 ApiType = SD.ApiType.POST,
-                Data = registrationRequest,
+                Data = registrationRequestDto,
                 Url = SD.AuthAPIBase + "/api/auth/register"
             }, withBearer: false);
-        }*/
+        }
     }
 }

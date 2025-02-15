@@ -1,20 +1,25 @@
 ﻿using Ecommerce.Web.Models;
 using Ecommerce.Web.Service.IService;
 using Ecommerce.Web.Utility;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace Ecommerce.Web.Controllers
 {
     public class AuthController : Controller
     {
         private readonly IAuthService _authService;
-       // private readonly ITokenProvider _tokenProvider;
+        private readonly ITokenProvider _tokenProvider;
 
-        public AuthController(IAuthService authService)//ITokenProvider tokenProvider)
+        public AuthController(IAuthService authService, ITokenProvider tokenProvider)
         {
             _authService = authService;
-           // _tokenProvider = tokenProvider;
+            _tokenProvider = tokenProvider;
         }
 
         [HttpGet]
@@ -34,8 +39,8 @@ namespace Ecommerce.Web.Controllers
                 LoginResponse loginResponse =
                     JsonConvert.DeserializeObject<LoginResponse>(Convert.ToString(response.Result));
 
-               // await SignInUser(loginResponse);
-                //_tokenProvider.SetToken(loginResponse.Token);
+                 await SignInUser(loginResponse);
+                 _tokenProvider.SetToken(loginResponse.Token);
                 return RedirectToAction("Index", "Home");
             }
             else
@@ -45,7 +50,7 @@ namespace Ecommerce.Web.Controllers
             }
         }
 
-/*
+
         [HttpGet]
         public IActionResult Register()
         {
@@ -122,11 +127,9 @@ namespace Ecommerce.Web.Controllers
             identity.AddClaim(new Claim(ClaimTypes.Role,
                 jwt.Claims.FirstOrDefault(u => u.Type == "role").Value));
 
-
-
             var principal = new ClaimsPrincipal(identity);
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-        }*/
+        }
 
     }
 }

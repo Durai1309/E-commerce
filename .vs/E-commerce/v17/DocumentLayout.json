@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\product\\productcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\product\\productcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\product\\productindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\product\\productindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\product\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\product\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\product\\productdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\product\\productdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Notifications.cshtml",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
-              "RelativeToolTip": "Ecommerce.Web\\Views\\Shared\\_Notifications.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAABAAAA",
+              "Title": "ProductCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductCreate.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Product\\ProductCreate.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductCreate.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Product\\ProductCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T09:07:45.615Z",
+              "WhenOpened": "2025-02-16T15:06:51.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductIndex.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Product\\ProductIndex.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductIndex.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Product\\ProductIndex.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T15:06:46.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductEdit.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Product\\ProductEdit.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductEdit.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Product\\ProductEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T15:06:31.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductDelete.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Product\\ProductDelete.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Product\\ProductDelete.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Product\\ProductDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T15:06:07.264Z",
               "EditorCaption": ""
             }
           ]

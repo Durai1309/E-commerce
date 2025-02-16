@@ -8,6 +8,7 @@
         {
             _next = next;
         }
+
         public async Task InvokeAsync(HttpContext context)
         {
             try
@@ -16,15 +17,8 @@
             }
             catch (Exception)
             {
-                context.Response.StatusCode = StatusCodes.Status500InternalServerError;
-                context.Response.ContentType = "application/json";
-
-                var response = new
-                {
-                    error = "An unexpected error occurred. Please try again later."
-                };
-
-                await context.Response.WriteAsJsonAsync(response);
+                context.Response.Redirect("/Home/Error");
+                return;
             }
         }
     }

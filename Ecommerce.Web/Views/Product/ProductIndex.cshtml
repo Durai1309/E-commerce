@@ -1,65 +1,64 @@
-﻿﻿
+﻿@model IEnumerable<ProductDto>
 
-@model IEnumerable<ProductDto>
+<div class="card-body p-4">
+    <div class="table-responsive shadow rounded border border-4">
+        <table class="table table-hover table-bordered mb-0">
+            <thead class="bg-light">
+                <tr>
+                    <th colspan="4" class="text-center py-2">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 text-start">
+                                    <a asp-action="ProductCreate" class="btn btn-outline-primary">
+                                        <i class="bi bi-plus-square"></i> Create New Product
+                                    </a>
+                                </div>
+                                <div class="col-md-4 text-center text-dark">
+                                    <h5 class="m-0">Products List</h5>
+                                </div>
+                                <div class="col-md-4">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                </tr>
+                <tr class="text-dark">
+                    <th scope="col">Name</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.CategoryName</td>
+                            <td>@(((double)item.Price).ToString("c"))</td>
+                            <td>
+                                <a class="btn btn-sm btn-outline-primary" asp-action="ProductEdit" asp-route-productId="@item.ProductId" title="Edit" aria-label="Edit @item.Name">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
 
-<div class="card shadow border-0 mt-4">
-	<div class="card-header bg-secondary bg-gradient ml-0 py-3">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h1 class="text-white">Products List</h1>
-			</div>
-		</div>
-	</div>
-	<div class="card-body p-4">
-		<div class="row pb-3">
-			<div class="col-6">
-			</div>
-			<div class="col-6 text-end">
-				<a asp-action="ProductCreate" class="btn btn-outline-primary"><i class="bi bi-plus-square"></i> Create New Product</a>
-
-			</div>
-		</div>
-		<table class="table">
-			<thead>
-				<tr>
-					<th>
-						Name
-					</th>
-					<th>
-						Category Name
-					</th>
-					<th>
-						Price
-					</th>
-					<th></th>
-				</tr>
-			</thead>
-			<tbody>
-				@foreach (var item in Model)
-				{
-					<tr>
-						<td>
-							@item.Name
-						</td>
-						<td>
-							@item.CategoryName
-						</td>
-						<td>
-							@((item.Price).ToString("c"))
-						</td>
-						<td>
-							<a class="btn btn-success" asp-action="ProductEdit" asp-route-productId="@item.ProductId">
-								<i class="bi bi-pencil-square"></i>
-							</a>
-							<a class="btn btn-danger" asp-action="ProductDelete" asp-route-productId="@item.ProductId">
-								<i class="bi bi-trash"></i>
-							</a>
-						</td>
-					</tr>
-				}
-			</tbody>
-		</table>
-
-	</div>
-
+                                <a class="btn btn-sm btn-outline-danger" asp-action="ProductDelete" asp-route-productId="@item.ProductId" title="Delete" aria-label="Delete @item.Name">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" class="text-center">
+                            No products available. <a asp-action="ProductCreate">Create one now!</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>

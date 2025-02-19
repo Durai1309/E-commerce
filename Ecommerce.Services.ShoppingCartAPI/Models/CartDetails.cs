@@ -1,4 +1,8 @@
-﻿namespace Ecommerce.Services.ShoppingCartAPI.Models
+﻿using Ecommerce.Services.ShoppingCartAPI.Models.Dto;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Ecommerce.Services.ShoppingCartAPI.Models
 {
     public class CartDetails
     {

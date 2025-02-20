@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\service\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\service\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\cart\\cartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\cart\\cartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03A663B7-C22F-4BC2-9242-68C4DD932500}|Ecommerce.Services.ShoppingCartAPI\\Ecommerce.Services.ShoppingCartAPI.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.services.shoppingcartapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{03A663B7-C22F-4BC2-9242-68C4DD932500}|Ecommerce.Services.ShoppingCartAPI\\Ecommerce.Services.ShoppingCartAPI.csproj|solutionrelative:ecommerce.services.shoppingcartapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:15:43.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\IService\\ICartService.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Service\\IService\\ICartService.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\IService\\ICartService.cs",
-              "RelativeToolTip": "Ecommerce.Web\\Service\\IService\\ICartService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T17:57:11.603Z",
-              "IsPinned": true,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Home\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Home\\ProductDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:40:26.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\CartService.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Service\\CartService.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Service\\CartService.cs",
-              "RelativeToolTip": "Ecommerce.Web\\Service\\CartService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T17:56:38.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Program.cs",
-              "RelativeToolTip": "Ecommerce.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T17:32:45.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SD.cs",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Utility\\SD.cs",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\Utility\\SD.cs",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Utility\\SD.cs",
-              "RelativeToolTip": "Ecommerce.Web\\Utility\\SD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T17:32:40.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.ShoppingCartAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Ecommerce.Services.ShoppingCartAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Services.ShoppingCartAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Ecommerce.Services.ShoppingCartAPI\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-19T17:32:05.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Ecommerce.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\appsettings.json",
-              "RelativeToolTip": "Ecommerce.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-19T17:31:52.862Z",
+              "Title": "CartIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Cart\\CartIndex.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Cart\\CartIndex.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Cart\\CartIndex.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Cart\\CartIndex.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:18:10.643Z",
               "EditorCaption": ""
             }
           ]

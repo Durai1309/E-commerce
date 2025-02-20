@@ -22,16 +22,6 @@ namespace Ecommerce.Web.Service
             });
         }
 
-        public async Task<Response?> EmailCart(CartDto cartDto)
-        {
-            return await _baseService.SendAsync(new Request()
-            {
-                ApiType = SD.ApiType.POST,
-                Data = cartDto,
-                Url = SD.ShoppingCartAPIBase + "/api/cart/EmailCartRequest"
-            });
-        }
-
         public async Task<Response?> GetCartByUserIdAsnyc(string userId)
         {
             return await _baseService.SendAsync(new Request()

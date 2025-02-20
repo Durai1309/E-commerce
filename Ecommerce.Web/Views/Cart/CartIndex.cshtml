@@ -23,18 +23,19 @@
                         <div class="row gy-1">
                             <div class="col-12 d-none d-lg-block">
                                 <div class="row text-dark">
-                                    <div class="col-lg-2">
+                                    <div class="col-lg-2" style="font-weight: bold;">
                                     </div>
-                                    <div class="col-lg-5">
+                                    <div class="col-lg-5" style="font-weight: bold;">
                                         Product Details
                                     </div>
-                                    <div class="col-lg-2">
+                                    <div class="col-lg-2" style="font-weight: bold;">
                                         Price
                                     </div>
-                                    <div class="col-lg-2">
+                                    <div class="col-lg-2" style="font-weight: bold;">
                                         Count
                                     </div>
-                                    <div class="col-lg-1">
+                                    <div class="col-lg-1" style="font-weight: bold;">
+                                        Actions
                                     </div>
                                 </div>
                             </div>
@@ -61,12 +62,11 @@
                                         </a>
                                     </div>
                                 </div>
-                                <hr />
                             }
                         </div>
                     </div>
                 </div>
-                <hr />
+                <hr/>
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex align-items-center">
                         <label for="CouponCode" class="form-label me-2 mb-0">Coupon:</label>
@@ -83,17 +83,18 @@
                         </div>
                     </div>
                     <div class="col-6 text-end">
-                        <span class="text-danger" style="font-size:21px;">  Order Total :  @string.Format("{0:c}", Model.CartHeader.CartTotal)  <br /></span>
+                        <span class="text-dark" style="font-size:18px;">  Order Total :  @string.Format("{0:c}", Model.CartHeader.CartTotal)  <br /></span>
                         @if (Model.CartHeader.Discount > 0)
                         {
                             <span class="text-success"> Order Discount :   @string.Format("{0:c}", Model.CartHeader.Discount) </span>
                         }
                     </div>
                 </div>
-                <hr />
-                <div class="card-footer bg-light d-grid gap-1 d-md-flex justify-content-md-end" style="border-radius: 0 0 10px 10px; padding: 0.75rem;">
+
+                <div class="card-footer bg-light d-grid gap-1 d-md-flex justify-content-md-end" style="border-radius: 0 0 10px 10px; padding: 0.75rem; margin-top: 20px;">
                     <a class="btn btn-outline-primary btn-md" style="min-width: 100px;">Checkout</a>
                 </div>
+
             </div>
         </div>
     </form>

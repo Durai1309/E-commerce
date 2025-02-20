@@ -1,0 +1,110 @@
+﻿@model CartDto
+
+@if (Model.CartHeader != null && Model.CartDetails?.Count() > 0)
+{
+    <form method="post">
+        <input asp-for="CartHeader.UserId" hidden />
+        <input asp-for="CartHeader.UserId" hidden />
+        <input asp-for="CartHeader.CartHeaderId" hidden />
+
+        <br />
+        <div class="py-3">
+            <div class="card container w-100 shadow-lg" style="border: 1px solid #ccc; border-radius: 10px;">
+                <div class="card-header bg-primary text-white row align-items-center" style="border-radius: 10px 10px 0 0; padding: 0.75rem;">
+                    <div class="col-6">
+                        <h4 class="mb-0"><i class="fa fa-shopping-cart"></i> &nbsp; Shopping Cart</h4>
+                    </div>
+                    <div class="col-6 text-end">
+                        <a asp-action="Index" asp-controller="Home" class="btn btn-outline-light btn-sm">Continue Shopping</a>
+                    </div>
+                </div>
+                <div class="card-body" style="padding: 0.75rem;">
+                    <div class="container-fluid">
+                        <div class="row gy-1">
+                            <div class="col-12 d-none d-lg-block">
+                                <div class="row text-dark">
+                                    <div class="col-lg-2">
+                                    </div>
+                                    <div class="col-lg-5">
+                                        Product Details
+                                    </div>
+                                    <div class="col-lg-2">
+                                        Price
+                                    </div>
+                                    <div class="col-lg-2">
+                                        Count
+                                    </div>
+                                    <div class="col-lg-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            @foreach (var cartObj in Model.CartDetails)
+                            {
+                                <div class="row h-100 align-items-center">
+                                    <div class="col-4 col-md-2 text-center py-2">
+                                        <img src="@cartObj.Product.ImageUrl" class="rounded" width="100%" style="object-fit: cover; height: 80px;" />
+                                    </div>
+                                    <div class="col-8 col-md-5">
+                                        <h5>@cartObj.Product.Name</h5>
+                                        <div style="font-size:11px;">@Html.Raw(cartObj.Product.Description)</div>
+                                    </div>
+                                    <div class="col-3 col-md-2" style="font-size:11px;">
+                                        <span style="font-size:17px;">@string.Format("{0:c}", cartObj.Product.Price)</span>
+                                    </div>
+                                    <div class="col-3 col-md-2" style="font-size:11px;">
+                                        <span style="font-size:17px;">@cartObj.Count</span>
+                                    </div>
+                                    <div class="col-2 col-lg-1 p-0 text-center">
+                                        <a asp-action="Remove" asp-route-cartDetailsId="@cartObj.CartDetailsId" class="btn btn-sm btn-outline-danger">
+                                            <i class="bi bi-trash"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <hr />
+                            }
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex align-items-center">
+                        <label for="CouponCode" class="form-label me-2 mb-0">Coupon:</label>
+                        <div class="d-flex w-auto">
+                            <input asp-for="CartHeader.CouponCode" class="form-control form-control-sm" id="CouponCode" placeholder="Enter Coupon Code" style="max-width: 150px;" />
+                            @if (string.IsNullOrEmpty(Model.CartHeader.CouponCode))
+                            {
+                                <button type="submit" asp-action="ApplyCoupon" class="btn btn-outline-primary btn-sm ms-2" style="max-width: 80px;">Apply</button>
+                            }
+                            else
+                            {
+                                <button type="submit" asp-action="RemoveCoupon" class="btn btn-outline-danger btn-sm ms-2" style="max-width: 80px;">Remove</button>
+                            }
+                        </div>
+                    </div>
+                    <div class="col-6 text-end">
+                        <span class="text-danger" style="font-size:21px;">  Order Total :  @string.Format("{0:c}", Model.CartHeader.CartTotal)  <br /></span>
+                        @if (Model.CartHeader.Discount > 0)
+                        {
+                            <span class="text-success"> Order Discount :   @string.Format("{0:c}", Model.CartHeader.Discount) </span>
+                        }
+                    </div>
+                </div>
+                <hr />
+                <div class="card-footer bg-light d-grid gap-1 d-md-flex justify-content-md-end" style="border-radius: 0 0 10px 10px; padding: 0.75rem;">
+                    <a class="btn btn-outline-primary btn-md" style="min-width: 100px;">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </form>
+}
+else
+{
+    <div class="py-3">
+        <div class="card container w-100 shadow-lg" style="border: 1px solid #ccc; border-radius: 10px;">
+            <div class="card-body text-center">
+                <p>Please add items to cart.</p>
+            </div>
+        </div>
+    </div>
+}

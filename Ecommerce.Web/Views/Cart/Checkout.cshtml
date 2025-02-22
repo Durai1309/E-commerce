@@ -1,0 +1,93 @@
+﻿@model CartDto
+
+<form method="post">
+    <input asp-for="CartHeader.UserId" hidden />
+    <input asp-for="CartHeader.CartHeaderId" hidden />
+    <input asp-for="CartHeader.CouponCode" hidden />
+    <input asp-for="CartHeader.Discount" hidden />
+    <input asp-for="CartHeader.CartTotal" hidden />
+
+    <div class="container mt-5">
+        <div class="card border-0 shadow-lg">
+            <div class="card-header bg-primary text-white py-3 rounded-top">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <h4 class="mb-0"><i class="fa fa-shopping-cart"></i> &nbsp; Order Summary</h4>
+                    </div>
+                    <div class="col-6 text-end">
+                        <a asp-action="CartIndex" class="btn btn-outline-light btn-sm">Back to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <h5 class="mb-4">Customer Details</h5>
+                        <div class="mb-3">
+                            <input asp-for="CartHeader.Name" placeholder="Full Name" class="form-control form-control-lg" />
+                            <span asp-validation-for="CartHeader.Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <input asp-for="CartHeader.Email" placeholder="Email Address" class="form-control form-control-lg" />
+                            <span asp-validation-for="CartHeader.Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <input asp-for="CartHeader.Phone" placeholder="Phone Number" class="form-control form-control-lg" />
+                            <span asp-validation-for="CartHeader.Phone" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-5">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-none d-lg-block">
+                                    <div class="row text-dark fw-bold">
+                                        <div class="col-6">Product Details</div>
+                                        <div class="col-3">Price</div>
+                                        <div class="col-3">Quantity</div>
+                                    </div>
+                                    <hr />
+                                </div>
+
+                                @foreach (var cartObj in Model.CartDetails)
+                                {
+                                    <div class="row align-items-center mb-3">
+                                        <div class="col-6">
+                                            <span class="d-block fw-medium">@cartObj.Product.Name</span>
+                                        </div>
+                                        <div class="col-3">
+                                            <span>@cartObj.Product.Price.ToString("c")</span>
+                                        </div>
+                                        <div class="col-3">
+                                            <span>@cartObj.Count</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                }
+
+                                <div class="row mt-4">
+                                    <div class="col-12 text-end">
+                                        <h5 class="text-dark">Order Total: @Model.CartHeader.CartTotal.ToString("c")</h5>
+                                        @if (Model.CartHeader.Discount > 0)
+                                        {
+                                            <h6 class="text-success">Order Discount: @Model.CartHeader.Discount.ToString("c")</h6>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer bg-light d-grid gap-1 d-md-flex justify-content-md-end" style="border-radius: 0 0 10px 10px; padding: 0.75rem; margin-top: 20px;">
+                                <button class="btn btn-outline-primary btn-md" style="min-width: 100px;">Place Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

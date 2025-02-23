@@ -57,7 +57,7 @@ namespace Ecommerce.Services.ProductAPI.Controllers
 
         [HttpPost]
         [Authorize(Roles = "ADMIN")]
-        public Response Post(ProductDto ProductDto)
+        public Response Post([FromForm] ProductDto ProductDto)
         {
             try
             {
@@ -107,7 +107,7 @@ namespace Ecommerce.Services.ProductAPI.Controllers
 
         [HttpPut]
         [Authorize(Roles = "ADMIN")]
-        public Response Put(ProductDto ProductDto)
+        public Response Put([FromForm] ProductDto ProductDto)
         {
             try
             {

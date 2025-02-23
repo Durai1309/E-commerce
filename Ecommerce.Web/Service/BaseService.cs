@@ -24,7 +24,6 @@ namespace Ecommerce.Web.Service
             {
                 HttpClient client = _httpClientFactory.CreateClient("API");
                 HttpRequestMessage message = new();
-                message.Headers.Add("Accept", "application/json");
                 if (request.ContentType == ContentType.MultipartFormData)
                 {
                     message.Headers.Add("Accept", "*/*");
@@ -39,6 +38,7 @@ namespace Ecommerce.Web.Service
                     var token = _tokenProvider.GetToken();
                     message.Headers.Add("Authorization", $"Bearer {token}");
                 }
+
                 message.RequestUri = new Uri(request.Url);
 
                 if (request.ContentType == ContentType.MultipartFormData)
@@ -70,6 +70,7 @@ namespace Ecommerce.Web.Service
                         message.Content = new StringContent(JsonConvert.SerializeObject(request.Data), Encoding.UTF8, "application/json");
                     }
                 }
+
                 HttpResponseMessage? apiResponse = null;
 
                 switch (request.ApiType)

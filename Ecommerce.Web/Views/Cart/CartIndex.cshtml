@@ -43,9 +43,9 @@
                             @foreach (var cartObj in Model.CartDetails)
                             {
                                 <div class="row h-100 align-items-center">
-                                    <div class="col-4 col-md-2 text-center py-2">
+                                   @*  <div class="col-4 col-md-2 text-center py-2">
                                         <img src="@cartObj.Product.ImageUrl" class="rounded" width="100%" style="object-fit: cover; height: 80px;" />
-                                    </div>
+                                    </div> *@
                                     <div class="col-8 col-md-5">
                                         <h5>@cartObj.Product.Name</h5>
                                         <div style="font-size:11px;">@Html.Raw(cartObj.Product.Description)</div>
@@ -101,10 +101,13 @@
 }
 else
 {
-    <div class="py-3">
-        <div class="card container w-100 shadow-lg" style="border: 1px solid #ccc; border-radius: 10px;">
-            <div class="card-body text-center">
-                <p>Please add items to cart.</p>
+    <div class="bg-light d-flex flex-column align-items-center" style="height: 100vh;">
+        <div style="max-width: 400px; width: 100%;" class="mt-5">
+            <div class="card shadow-lg rounded-3">
+                <div class="card-body text-center">
+                    <p class="card-text fs-5 text-dark mb-4">Please add items to cart.</p>
+                    <button class="btn btn-outline-primary btn-md" onclick="window.location.href='/home'">Return to Home</button>
+                </div>
             </div>
         </div>
     </div>

@@ -45,9 +45,19 @@ namespace Ecommerce.Services.ShoppingCartAPI.Controllers
 
                 foreach (var item in cart.CartDetails)
                 {
-                    item.Product = productDtos.FirstOrDefault(u => u.ProductId == item.ProductId);
-                    cart.CartHeader.CartTotal += (item.Count * item.Product.Price);
+                    var product = productDtos.FirstOrDefault(u => u.ProductId == item.ProductId);
+
+                    if (product != null)
+                    {
+                        item.Product = product;
+                        cart.CartHeader.CartTotal += (item.Count * item.Product.Price);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Product with ID not found.");
+                    }
                 }
+
 
                 //apply coupon if any
                 if (!string.IsNullOrEmpty(cart.CartHeader.CouponCode))

@@ -8,5 +8,6 @@ namespace Ecommerce.Web.Service.IService
         Task<Response?> GetAllOrder(string? userId);
         Task<Response?> GetOrder(int orderId);
         Task<Response?> UpdateOrderStatus(int orderId, string newStatus);
+
     }
 }

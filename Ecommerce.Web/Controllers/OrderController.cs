@@ -3,6 +3,7 @@ using Ecommerce.Web.Service.IService;
 using Ecommerce.Web.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Newtonsoft.Json;
 using System.IdentityModel.Tokens.Jwt;
 
@@ -38,6 +39,18 @@ namespace Ecommerce.Web.Controllers
                 return NotFound();
             }
             return View(orderHeaderDto);
+        }
+
+        [HttpPost("ApprovedOrder")]
+        public async Task<IActionResult> ApprovedOrder(int orderId)
+        {
+            var response = await _orderService.UpdateOrderStatus(orderId, SD.Status_Approved);
+            if (response != null && response.IsSuccess)
+            {
+                TempData["success"] = "Status updated successfully";
+                return RedirectToAction(nameof(OrderDetail), new { orderId = orderId });
+            }
+            return View();
         }
 
         [HttpPost("OrderReadyForPickup")]

@@ -1,0 +1,79 @@
+﻿@{
+    var status = Context.Request.Query["status"];
+    var approved = "";
+    var readyforpickup = "";
+    var cancelled = "";
+    var all = "";
+
+    switch (status)
+    {
+        case "approved":
+            approved = "active text-white bg-secondary";
+            break;
+        case "readyforpickup":
+            readyforpickup = "active text-white bg-secondary";
+            break;
+        case "cancelled":
+            cancelled = "active text-white bg-secondary";
+            break;
+        default:
+            all = "active text-white bg-secondary";
+            break;
+    }
+}
+
+<div class="container mt-5">
+    <div class="card border-0 shadow-lg">
+        <div class="card-header bg-primary text-white py-3 rounded-top">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <h4 class="mb-0">Order List</h4>
+                </div>
+                <div class="col-6 text-end">
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-outline-light btn-sm @all" asp-controller="Order" asp-action="OrderIndex" asp-route-status="all">All Orders</a>
+                        <a class="btn btn-outline-light btn-sm @approved" asp-controller="Order" asp-action="OrderIndex" asp-route-status="approved">Approved</a>
+                        <a class="btn btn-outline-light btn-sm @readyforpickup" asp-controller="Order" asp-action="OrderIndex" asp-route-status="readyforpickup">Ready for Pickup</a>
+                        <a class="btn btn-outline-light btn-sm @cancelled" asp-controller="Order" asp-action="OrderIndex" asp-route-status="cancelled">Cancelled</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body">
+           
+            <div class="mt-4">
+                <table id="tblData" class="table table-bordered table-striped pt-3" style="width:100%">
+                    <thead class="table-light">
+                        <tr>
+                            <th>ID</th>
+                            <th>Email</th>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/order.js"></script>
+}
+
+<style>
+    .card-header .btn {
+        margin-right: 5px;
+    }
+
+        .card-header .btn:last-child {
+            margin-right: 0;
+        }
+
+</style>

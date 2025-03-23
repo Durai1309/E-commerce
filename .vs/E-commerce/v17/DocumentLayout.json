@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Durai\\source\\repos\\E-commerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|c:\\users\\durai\\source\\repos\\e-commerce\\ecommerce.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFEF3CDA-0B7B-41F5-A88D-E730BCDACB93}|Ecommerce.Web\\Ecommerce.Web.csproj|solutionrelative:ecommerce.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACAAAAC4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T09:54:19.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Durai\\source\\repos\\E-commerce\\Ecommerce.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Ecommerce.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAACwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T09:53:36.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
